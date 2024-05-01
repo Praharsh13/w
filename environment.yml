@@ -6,13 +6,12 @@ channels:
 
 dependencies:
   - folium=0.12.1
-  - panel=0.12.1
-  - numpy
+  - panel=0.12.2  # Updated to a version compatible with Bokeh 2.4.2
+  - numpy  # Let Conda choose the appropriate version
   - pandas
   - python=3.9
   - bokeh=2.4.2
-  - conda-forge::numpy=1.21.*
-  - nodejs=16.13.*
+  - conda-forge::nodejs=16.13.*
   - flask
   - pip
   - pip:
