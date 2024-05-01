@@ -1,7 +1,10 @@
-channels:
-  - pyviz
 packages:
   - jupyter-panel-proxy
+channels:
+  - defaults
+  - conda-forge
+  - pyviz
+  - javascript
 dependencies:
   - folium=0.12.1
   - panel
@@ -15,5 +18,3 @@ dependencies:
   - pip
   - pip:
     - Flask-Testing
-
-
